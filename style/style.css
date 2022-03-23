@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 1920px;
+    height: 88px;
+    background-color: #040440;
+}
+
+.banner {
+    background-image: url(../img/banner-backgroung.png);
+    height: 981px;
+    margin: 0;
+    background-size: auto;
+}
+
+.first-block {
+    height: 685px;
+    background-color: #040440;
+    margin-top: -1px
+    ;
+}
+
+.second-block {
+    height: 807px;
+    background-color: #130b5b;
+}
+
+footer {
+    height: 111px;
+    background-color: #040440;
+}
