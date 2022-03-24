@@ -18,7 +18,7 @@ a:hover {
 }
 
 .container {
-    width: 70%;
+    width: 63%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -27,7 +27,8 @@ a:hover {
 }
 
 .container-header {
-    width: 90%;
+    width: 93%;
+    margin-left: 104px;
 }
 
 header {
@@ -35,9 +36,23 @@ header {
     background-color: #040440;
 }
 
+#about-us {
+    margin-left: 515px;
+    margin-top: -7px;
+}
+
+#about-course {
+    margin-top: -7px;
+}
+
+#contacts {
+    margin-right: 36px;
+    margin-top: -7px;
+}
+
 .banner {
     background-image: url(../img/banner-backgroung.png);
-    min-height: 981px;
+    min-height: 892px;
     margin: 0;
     background-size: auto;
 }
@@ -45,6 +60,11 @@ header {
 .container-banner {
     display: block;
     padding-top: 180px;
+}
+
+.container__first-block {
+    width: 85%;
+    justify-content: center;
 }
 
 .first-block {
@@ -79,40 +99,48 @@ footer {
     color: #ffffff;
 }
 
+.const-button {
+    margin-right: 37px;
+}
+
 .sign-button {
     width: 258px;
     height: 75px;
     background-color: #c93555;
     border-radius: 36.5px;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 1.2;
     font-weight: 500;
     color: #fefefe;
     text-transform: uppercase;
+    padding-bottom: 9px;
 }
 
 .sign-button_header {
     font-size: 28px;
+    font-size: 24px;
+    padding: 0px 0px 8px 8px;
 }
 
 .banner__pre-title {
     color: #c93555;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 500;
-    border-top: 5px solid #c93555;
+    border-top: 7px solid #c93555;
     width: max-content;
+    padding-top: 13px;
 }
 
 .banner__title {
-    font-size: 42px;
+    font-size: 51px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 60px 0;
+    padding: 47px 0;
 }
 
 .banner__subtitle {
-    font-size: 20px;
-    padding-bottom: 90px;
+    font-size: 25px;
+    padding-bottom: 80px;
 }
 
 .banner__content {
@@ -120,7 +148,7 @@ footer {
 }
 
 .banner__button {
-    padding-bottom: 60px;
+    padding-bottom: 55px;
 }
 
 .content-item {
@@ -133,7 +161,7 @@ footer {
     font-weight: 300;
     text-transform: uppercase;
     color: #fefefe;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .content-item__content {
@@ -144,11 +172,11 @@ footer {
 }
 
 .article__article-header {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 1.2;
     font-weight: 900;
     color: #ffffff;
-    padding: 70px 0 50px 0;
+    padding: 96px 0px 64px 43px;
 }
 
 .article__article-header::before {
@@ -163,10 +191,7 @@ footer {
     font-weight: 100;
     color: #ffffff;
     margin-bottom: 40px;
-}
-
-#about-course {
-    clear: both;
+    padding-left: 59px;
 }
 
 .container-second-block {
@@ -185,13 +210,14 @@ footer {
     width: 537px;
     height: 155px;
     border-radius: 30px;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.2;
     font-weight: 900;
     text-transform: uppercase;
     color: #ffffff;
     background-color: #c93555;
-    margin-top: 80px;
+    margin: 66px 10px 0 10px;
+    padding: 0 0 21px 0px;
 }
 
 .const-social {
@@ -204,5 +230,14 @@ footer {
 }
 
 .block__block-image {
-    margin: 40px;
+    margin: 44px 41px 0 253px;
+}
+
+#second-block-header {
+    padding: 66px 0px 64px 0px;
+}
+
+#second-block-content {
+    margin-bottom: 0;
+    padding-left: 4px;
 }
